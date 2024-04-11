@@ -1,0 +1,57 @@
+Alguns dos comandos principais do Docker que um desenvolvedor pode usar com frequência, juntamente com suas descrições:
+
+1. **docker pull**:
+   - Descrição: Baixa uma imagem do Docker Hub para o seu ambiente local.
+   - Uso: `docker pull nome_da_imagem`
+
+2. **docker build**:
+   - Descrição: Cria uma imagem Docker a partir de um Dockerfile.
+   - Uso: `docker build -t nome_da_imagem caminho_para_dockerfile`
+
+3. **docker run**:
+   - Descrição: Executa um contêiner Docker a partir de uma imagem.
+   - Uso: `docker run nome_da_imagem`
+
+4. **docker ps**:
+   - Descrição: Lista todos os contêineres em execução.
+   - Uso: `docker ps`
+
+5. **docker ps -a**:
+   - Descrição: Lista todos os contêineres, incluindo os que estão parados.
+   - Uso: `docker ps -a`
+
+6. **docker stop**:
+   - Descrição: Para a execução de um contêiner em execução.
+   - Uso: `docker stop nome_do_contêiner`
+
+7. **docker rm**:
+   - Descrição: Remove um contêiner.
+   - Uso: `docker rm nome_do_contêiner`
+
+8. **docker rmi**:
+   - Descrição: Remove uma ou mais imagens do Docker.
+   - Uso: `docker rmi nome_da_imagem`
+
+9. **docker exec**:
+   - Descrição: Executa um comando dentro de um contêiner em execução.
+   - Uso: `docker exec nome_do_contêiner comando`
+
+10. **docker-compose up**:
+    - Descrição: Inicia os serviços definidos em um arquivo docker-compose.yml.
+    - Uso: `docker-compose up`
+
+11. **docker-compose down**:
+    - Descrição: Para e remove os contêineres, redes e volumes definidos em um arquivo docker-compose.yml.
+    - Uso: `docker-compose down`
+
+12. **docker volume**:
+    - Descrição: Gerencia volumes Docker, que são usados para persistência de dados.
+    - Uso: `docker volume COMMAND`
+
+13. **docker network**:
+    - Descrição: Gerencia redes Docker.
+    - Uso: `docker network COMMAND`
+
+14. **docker inspect**:
+    - Descrição: Retorna informações detalhadas sobre um ou mais contêineres, imagens ou outros objetos do Docker.
+    - Uso: `docker inspect nome_do_contêiner`
